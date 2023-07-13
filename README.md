@@ -9,7 +9,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Javascript Framework
 - React JS
 - Next JS
-
 2. Web Framerwork
 - Next JS
 3.Programming Languages
