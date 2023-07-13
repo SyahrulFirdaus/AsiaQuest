@@ -1,0 +1,36 @@
+#animasi {
+    animation: animate 3s linear infinite;
+} 
+
+@keyframes animate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  #defaultbutton {
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom: 16px;
+ padding-top: 16px;
+ border-radius: 9px;
+ background: #26468f;
+ border: none;
+ font-family: inherit;
+ text-align: center;
+ cursor: pointer;
+ transition: 0.4s;
+}
+
+#defaultbutton:hover {
+ box-shadow: 7px 5px 56px -14px #26468f;
+}
+
+#defaultbutton:active {
+ transform: scale(0.97);
+ box-shadow: 7px 5px 56px -10px #26468f;
+}
+
+
